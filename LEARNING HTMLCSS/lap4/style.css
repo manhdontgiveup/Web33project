@@ -1,0 +1,36 @@
+.box {
+  background-color: chartreuse;
+  width: 800px;
+  height: 600px;
+  padding-bottom: 1500px;
+  padding-right: 0;
+  padding-left: 700px;
+  box-sizing: border-box;
+}
+.box__p {
+  background: lightblue;
+  color: black;
+  /* width: 20vw;
+  height: 50vh; */
+  /* padding-left: 80px; */
+  border: 20px solid red;
+  border-radius: 2vw;
+}
+/*  box moder */
+/* nếu cả 4 giá trị padding và margin  đều xuất hiện thì nó sẽ ưu tiên top và left */
+.box:hover {
+  border: none;
+  background-color: darkred;
+}
+.box:hover .card{
+  color: crimson;
+  display: block
+  width: 100px;
+  height: 50px;
+}
+.box:hover .box__p{
+  color: crimson;
+  display: block
+  width: 100px;
+  height: 50px;
+}

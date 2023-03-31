@@ -1,0 +1,73 @@
+body {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.heart {
+  ma
+  box-sizing: border-box;
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  /* transform: rotate(-45deg); */
+  animation: spin 1s ;
+}
+.v {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.v1 {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  border-radius: 50px;
+}
+.v2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  border-radius: 50px;
+}
+
+@keyframes spin {
+   0%{
+    transform: scale(0.5);
+    
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+.hello p{
+font-size: 20px;
+animation: wavy 1s;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes wavy {
+   0%{transform: translate(0)
+   ;
+    
+  }
+  45% {
+    transform: translate(0, 100%);
+  }
+  55% {
+    transform: translate(0, 100% );
+  }
+   100% {
+    transform: translate(0);
+  }
+}
+
+
+.ifram--youtube{
+  width: auto;
+  height: auto;
+}

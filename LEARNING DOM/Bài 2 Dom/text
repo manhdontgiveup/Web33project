@@ -1,0 +1,20 @@
+Sự giống và khác nhau của HTML Collection và NodeList trong DOM
+
+HTMLCollection và NodeList đều là những đối tượng được sử dụng để lưu trữ tập
+ hợp các phần tử trong DOM. Tuy nhiên, chúng có một số điểm khác nhau:
+
+HTMLCollection là một đối tượng được trả về bởi một số phương thức DOM như
+ getElementsByClassName hoặc getElementsByTagName. Nó chỉ lưu trữ các phần tử có tên thẻ
+ hoặc lớp tương ứng với phương thức mà nó được tạo ra. Nếu có sự thay đổi về DOM,
+  HTMLCollection sẽ tự động cập nhật.
+
+NodeList là một đối tượng được trả về bởi một số phương thức DOM khác như querySelectorAll. 
+Nó lưu trữ các phần tử dựa trên các truy vấn CSS được đưa vào phương thức. NodeList không 
+cập nhật tự động nếu có sự thay đổi về DOM.
+
+HTMLCollection và NodeList đều có thể được truy cập bằng chỉ mục hoặc vòng lặp. Tuy nhiên,
+ HTMLCollection không có một số phương thức của mảng như forEach, map, filter hoặc reduce,
+  trong khi NodeList có thể được xử lý như một mảng.
+
+Vì vậy, để phân biệt HTMLCollection và NodeList, bạn cần xem xét phương thức hoặc truy vấn 
+CSS mà đối tượng được tạo ra, và có thể sử dụng các tính năng của đối tượng để xác định loại của nó.

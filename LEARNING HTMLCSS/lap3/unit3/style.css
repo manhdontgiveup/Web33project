@@ -1,0 +1,33 @@
+.container {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* di kem voi tat ca cac thuoc tinh khac trong flex box
+  Flex-direction:row */
+  /* căn chỉnh phần tử theo trục main */
+  justify-content: space-between;
+  align-items: center;
+  /* cho phep thanng con xuong dong: cos 2 gias trij wrap va nowrap */
+  flex-wrap: wrap;
+  /* can chinh kich thuoc va thuoc tinh cua dong line: khong bao gio su dung */
+  align-content: space-between;
+  /* khoang cach cho cac item */
+  gap: 20px;
+  /* cac thuoc tinh chi dc ap dung neu cha duoc ap dung display:flex */
+  /*  */
+}
+.item {
+  background-color: blueviolet;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  flex-item: ;
+}
+.card__meta {
+  width: 1000px;
+}
+.card__list {
+  width: 300px;
+  height: 200px;
+  color: brown;
+}

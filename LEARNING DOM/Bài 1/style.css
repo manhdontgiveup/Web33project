@@ -1,0 +1,15 @@
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+.font-lager{
+    font-size: large;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-bold{
+    font-weight: bold;
+}

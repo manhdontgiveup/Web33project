@@ -1,0 +1,37 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left:200px;
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 10px;
+  background-color: aqua;
+  width: 70px;
+  height: auto;
+  text-align: center;
+  p
+}
+nav{
+background-color: red;
+}
+form{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+.Re_set{
+  margin-left:10px;
+}
+.Sub_mit{
+    margin-left:180px;
+}
+.head_ing{
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;
+}

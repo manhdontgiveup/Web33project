@@ -1,0 +1,46 @@
+.hearding__blog {
+  color: red;
+  font-size: larger;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.conten__blog span {
+  color: blue;
+}
+.box {
+  /* content */
+  background-color: blue;
+  width: 300px;
+  /* chiều cao auto co giản theo nội dung */
+  /* padding là phần lề quanh nội dung */
+  /* padding: top righr bottom  left;
+    padding: all;
+    padding: top bottom  - left, right */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* mầu padding giống mầu nền */
+  /* border: kiểu viền -  mầu viền  kích thước viền - bo viền; */
+  border: 10px solid gray;
+  border-radius: 10px;
+  /* magin khoảng cách giữa các phần tử */
+  margin-bottom: 50px;
+  display: ;
+  /* thay đổi kiểu hiển thị          */
+  display: block;
+  display: inline;
+  display: none;
+  /* none ẩn phần tử */
+  box-sizing: border-box;
+  /* kiểm soát kích thước thực của các phần tử */
+  box-sizing: content-box;
+  /* kích thước của phần nội dung content */
+}
+* {
+  box-sizing: boder-box;
+  margin: 0;
+  padding: 0;
+  /* định dạng các phần tử trong body về mặc định mảgin và padding 0 (vì 1 số element nhu h1 h2 ul li có cá padding mạc định vì vậy tta định dạng nó về 0*/
+}

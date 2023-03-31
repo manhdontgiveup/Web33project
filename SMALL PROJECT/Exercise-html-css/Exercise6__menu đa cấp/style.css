@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+#nav {
+}
+#nav li {
+  display: inline-block;
+  position: relative;
+}
+#nav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  line-height: 46px;
+  padding: 0 24px 0 24px;
+}
+#nav li:hover a {
+  color: black;
+  background-color: rgba(128, 128, 128, 0.658);
+}
+#nav ul.subnav {
+  background-color: white;
+  /* display: none; */
+  position: absolute;
+}
+.subnav.li a {
+  background-color: rgb(106, 106, 136);
+  margin: 2px;
+}
+
+.subnav.li:hover {
+  background-color: blue;
+}
+
+
+/* css function */
+/* sử dụng như đẻ tạo giá trị cho thuộc tính: cú pháp chung:
+math function : sử dụng cho tính kích thước :
++ hàm : calc. 
+width: calc(100% - 10px) */

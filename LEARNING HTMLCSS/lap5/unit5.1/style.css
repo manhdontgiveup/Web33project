@@ -1,0 +1,45 @@
+.back-to-top {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+}
+.botton {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 90px;
+  right: 10px;
+}
+.text {
+  position: fixed;
+  bottom: 90px;
+  right: 80px;
+  display: none;
+}
+
+.back-to-top:hover .text {
+  display: block;
+}
+.text:hover {
+  color: rgb(187, 20, 20);
+}
+
+/* CSS CHO TRUYEN TRANH  */
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.card__content {
+}
+.card__image {
+}
+.card__image-original {
+}

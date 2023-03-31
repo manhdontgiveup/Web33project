@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="hearder-menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">TESTIMONIAL</a></li>
+          <li><a href="#">SERVICES</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main-content">
+        <section class="section-customer-information">
+          <form class="form-customer-information" action="">
+            <p>Information is being entered:</p>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="full name" />
+            <br />
+            <br />
+            <label for="date">Date</label>
+            <input id="date" type="date" ">
+            <br />
+            <br />
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" />
+            <br /><br />
+            <span>Gender: </span>
+            <input name="gender" id="male" type="radio" />
+            <label for="male">male</label>
+            <input name="gender" id="female" type="radio" />
+            <label for="female">female</label>
+            <input name="gender" id="other" type="radio" />
+            <label for="other">other</label>
+            <br /><br />
+            <label for="account-type">account-type: </label>
+            <select name="" id="account-type">
+              <option value="silver">silver</option>
+              <option value="yellow">yellow</option>
+              <option value="platium">platium</option>
+              <option value="diamond">diamond</option>
+            </select>
+            <br /><br />
+            <span>Are you sure with the above information?</span>
+            <input type="checkbox" name="" id="yes-info" checked />
+            <label for="yes-info">I agree</label>
+            <input type="checkbox" name="" id="no-info" />
+            <label for="no-info">I disagree</label>
+            <br /><br />
+            <button class="form-customer-confirm" type="submit">confirm</button>
+            <button class="form-customer-reset" type="reset">reset</button>
+          </form>
+        </section>
+        <section class="table">
+          <div class="table1-title">
+            <p>your financial statements February 2023</p>
+          </div>
+          <table class="table-1">
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>d</td>
+            </tr>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>d</td>
+            </tr>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>d</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+      <div class="main-advertisement">
+        <aside class="main-advertisement-content">
+          <p>advertisement</p>
+        </aside>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>footer</p>
+    </footer>
+  </body>
+</html>

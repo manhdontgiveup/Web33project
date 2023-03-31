@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  width: 1300px;
+  height: 768px;
+  padding: 50px;
+} */
+.main {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: relative;
+  transform: rotate(-45deg);
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  /* padding: 0; */
+}
+.v1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(192, 21, 21);
+}
+.v2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(192, 21, 21);
+  top: 0;
+  left: 50%;
+  border-radius: 50%;
+}
+.v3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(192, 21, 21);
+  top: -50%;
+  left: 0;
+  border-radius: 50%;
+}
+
+/* menu da cap */
+
+header {
+  /* canh giua le moi ben 10% */
+  margin: 5px 10%;
+  background-color: rgba(28, 28, 167, 0.87);
+}
+nav {
+  /* to mau cho menu cha */
+  background-color: #484848;
+  /* bo goc cho menu cha */
+  border-radius: 5px;
+}
+nav ul {
+  /* flex cho the cha:ul dan the con theo phuong ngang */
+  display: flex;
+}
+nav > ul li {
+  /*  bo dau cham mac dinh cua the li */
+  list-style: none;
+  /* ke duong ben trai, phai cua li */
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #333;
+}
+nav > ul li a {
+  /* tao khoi cho the a */
+  display: block;
+  /* padding tren duoi trai phai  */
+  padding: 0 25px;
+  /* do cao dong */
+  line-height: 50px;
+  /* mau sac */
+  color: #f1f2f3;
+  /* bo gach chan */
+  text-decoration: none;
+}
+nav ul li:first-child {
+  /* bo duong ke trai cua phan tu dau tien */
+  border-left: none;
+}
+nav > ul li:first-child a {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* khi hover den li thi to mau cho the a */
+nav ul li:hover > a {
+  background: red;
+  opacity: 0.7;
+  color: yellow;
+}
+
+/* menu con */
+/* an cac menr cap 1 2 3  */
+nav li ul {
+  display: none;
+}
+nav li > ul li {
+  /* dinh dang cho th li la menu cap 2 */
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: #999;
+  text-align: left;
+}
+nav li > ul li:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+nav li > ul li:last-child a {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* khi hover thi hien menu con  */
+nav li:hover > ul {
+  display: block;
+}
+
+/* hien thi menu cap 2 3 ben canh phai */
+nav > ul li > ul li > ul {
+  margin-left: 352px;
+  margin-top: -50px;
+}
